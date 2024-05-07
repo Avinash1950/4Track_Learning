@@ -112,6 +112,12 @@ footer {
   }
   
   }
+  .footer-section links li{
+    color: #ffffff;
+  }
+  h5{
+    color: #ffffff !important;
+  }
   
   @media screen and (max-width: 768px) {
     .footer-content {

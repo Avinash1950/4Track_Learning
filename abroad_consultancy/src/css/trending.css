@@ -9,12 +9,12 @@
   }
   
 
-  body {
-    font-family: Arial;
-    padding: 10px;
-    background: #ffffff;
-    overflow-y: auto;
-    height: 100vh;
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #ffffff;
+  overflow-y: auto;
+  height: 100vh;
 
 }
 

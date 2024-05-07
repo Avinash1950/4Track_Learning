@@ -7,6 +7,16 @@ body {
 .content {
     margin-top: 200px; 
   }
+.referlink a{
+  display: block;
+  width: 60px;
+  height: 100%;
+  position :relative;
+  /* animation-direction: normal; */
+  animation: normal 3s;
+  animation-iteration-count: infinite;
+
+}
   
    .background-image {
     display: flex;
@@ -25,7 +35,7 @@ body {
   position: absolute;
   display: block;
   object-fit: scale-down;
-  margin: auto;
+  /* margin: auto; */
   /* transform: translateX(-100%); */
   animation: display 10s infinite;
   
@@ -36,11 +46,11 @@ body {
     }
   
     img:nth-child(3) {
-      animation-delay: 2s;
+      animation-delay: 4s;
     }
   
     img:nth-child(4) {
-      animation-delay: 2s;
+      animation-delay: 6s;
     }
   
   

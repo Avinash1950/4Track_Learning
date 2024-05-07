@@ -96,7 +96,7 @@ function SignUp() {
           },
           body: JSON.stringify(formData),
         });
-  
+        console.log("res",response)
         if (!response.ok) {
           const errorData = await response.json();
           throw new Error(errorData.error);

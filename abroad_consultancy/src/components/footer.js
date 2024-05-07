@@ -44,6 +44,11 @@ const Footer = () => {
             <div className="footer-section links">
                 <h2>Quick Links</h2>
                 <ul>
+                  <li><Link to="https://www.amazon.in/dp/9355667817?ref=myi_title_dp" target='blank'><h5>Our Book-Career Compass </h5></Link></li>
+                  </ul>
+
+                  <ul>
+                
                 
           <h3 onClick={scrollToTop}>
             <Link to="/" >Home</Link>

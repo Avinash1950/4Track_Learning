@@ -90,6 +90,7 @@ router.post('/login', async (req, res,next) => {
 router.post("/userData", async(req,res,next)=>{
     const{token} = req.body;
     try{
+        console.log(token);
         const user = jwt.verify(token, JWT_SECRET);
         const useremail = user.email;
         User.findOne({email: useremail})
