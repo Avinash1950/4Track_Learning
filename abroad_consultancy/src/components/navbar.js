@@ -14,13 +14,11 @@ function NavBar() {
   
 
   return (
-    <div>
+    <div className='main'>
       <div className="header-nav">
+      
         <div className="head-container">
-          {/* <h1 style={{ display: "inline-block" }}>
-            <span style={{ color: "#0ceedf" }}></span>{" "}
-            <span style={{ color: "#170234" }}>4Track</span>Learning{" "}
-          </h1> */}
+
            <img
             src="logos/bpit.jpeg"
             alt="BPIT logo"
@@ -31,8 +29,8 @@ function NavBar() {
             alt="logo"
             style={{marginLeft: "20px", display: "inline-block", height: "40px", width: "200px" }}
           />
-         
         </div>
+
         <div className="navbar">
           <h3 onClick={scrollToTop}>
             <Link to="/" >Home</Link>
@@ -52,26 +50,18 @@ function NavBar() {
           <h3 onClick={scrollToTop}>
             <Link to="/contact">Contact us</Link>
           </h3>
-          
-          
-      
-       
       </div>
-      <div className='navbar'>
+       </div>
+      <div className='navbar2'>
         <Link to="/register">
         <button style={{ width: "auto" }} onClick={scrollToTop}>
           <p>Sign In</p>
         </button>
-        {/* <button style={{ width: "auto" }} onClick={scrollToTop}>
-          Signup
-        </button> */}
+        
       </Link>
       <button id='vle'>
-          <a href='https://lms-frontend-blush.vercel.app/' target='blank'>VLE For BPIT</a>
+          <a href='https://tinyurl.com/2hvdjm9m' target='blank'>VLE For BPIT</a>
         </button>
-      </div>
-      
-
       </div>
     </div>
   );
